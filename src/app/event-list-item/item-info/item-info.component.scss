@@ -1,0 +1,16 @@
+img {
+  height: 250px;
+  width: 100%;
+}
+h5 {
+  color: aqua;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: gray;
+}
+.rotate:hover {
+  transform: rotateZ(-5deg);
+}

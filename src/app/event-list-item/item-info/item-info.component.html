@@ -1,0 +1,14 @@
+<h5 class="card-title">{{ title }}</h5>
+<div
+  class="card rounded text-center border-0 rotate"
+  *ngFor="let event of events"
+>
+  <a href="#">
+    <img src="{{ event.img }}" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{ event.title }}</h5>
+      <p class="card-text">{{ event.description }}</p>
+      <a href="#" class="btn btn-dark">Join!</a>
+    </div>
+  </a>
+</div>

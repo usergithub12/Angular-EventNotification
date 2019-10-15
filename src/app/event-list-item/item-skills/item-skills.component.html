@@ -1,0 +1,11 @@
+<h5 class="card-title">{{ title }}</h5>
+<div class="card  rounded bg-info border-0">
+  <div class="card-body">
+    <ul >
+      <li *ngFor="let skill of skills">- {{ skill.level }} {{ skill.name }}</li>
+    </ul>
+    <div class="text-center">
+      <app-item-skills-edit></app-item-skills-edit>
+    </div>
+  </div>
+</div>
